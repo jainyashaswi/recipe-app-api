@@ -4,7 +4,8 @@ MAINTAINER Yash
 ENV PYTHONUNBUFFERED 1
 
 
-
+# ENV http_proxy http://10.91.118.10:80/
+# ENV https_proxy http://10.91.118.10:80/
 
 COPY ./requirements.txt /requirements.txt
 
